@@ -5,7 +5,11 @@ def subtracao():
 def multiplicacao():
     print(x * y)
 def divisao():
-    print(x / y)
+    if y == 0:
+        print('Não e possivel dividir por 0')
+    else:
+        print(x / y)
+
 
 print('---------------------------------------')
 print('Ola seja bem vindo a minha calculadora ')
