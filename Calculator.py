@@ -13,8 +13,8 @@ print('Qual operação deseja realizar')
 print('1 - Adição \n2 - Subtração \n3 - Multiplicação \n4 - Divisão ')
 print('---------------------------------------')
 
-x = float(input('Digite o primeiro numero'))
-y = float(input('Digite o segundo numeoro'))
+x = float(input('Digite o primeiro numero - '))
+y = float(input('Digite o segundo numeoro - '))
 
 n = int(input('Digite o numero correpondente a operação - '))
 
