@@ -10,7 +10,7 @@ def divisao():
     if y == 0:
         print('Não e possivel dividir por 0')
     else:
-        print(x / y)
+        print("O resumtado e {:.2f}".format(x / y))
 
 while True:
     print('--------------------------------------------------------------')
